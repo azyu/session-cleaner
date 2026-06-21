@@ -11,6 +11,7 @@
 | Add tests/fixtures | Done for current MVP | `cargo test` passed 20 tests |
 | Release install | Done | `cargo build --release`; copied to `~/.local/bin/session-cleaner`; installed binary ran `--help` and dry-run scan |
 | Polish CLI usability | Done | `tests/cli_ux.rs` covers root help, `--version`, subcommand examples, and `-r/-y` aliases |
+| Add README docs | Done | `README.md` and `README.ko-kr.md`; README command examples verified against installed CLI and temp config |
 
 ## Completed work
 
@@ -34,6 +35,7 @@
 | 2026-06-21 | Researched OMP session storage from upstream source | `can1357/oh-my-pi`; `getSessionsDir()` resolves `~/.omp/agent/sessions` or XDG data override, `getTerminalSessionsDir()` resolves `~/.omp/agent/terminal-sessions` or XDG state override |
 | 2026-06-21 | Built and installed release binary | `cargo test` passed 20 tests; `cargo build --release`; installed binary at `~/.local/bin/session-cleaner` ran `--help` and `scan --dry-run --older-than 0s` |
 | 2026-06-21 | Polished CLI usability | Added root quick-start/safety help, subcommand examples, `--version`, and short aliases; `cargo test` passed 24 tests |
+| 2026-06-21 | Added English and Korean README docs | Followed `azyu/bb-cli` README structure; verified documented CLI commands, config example, placeholder scan, `cargo test`, `cargo fmt --check`, and `cargo clippy -- -D warnings` |
 
 ## Next observable work
 

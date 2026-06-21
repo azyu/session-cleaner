@@ -14,6 +14,8 @@
 ## Durable references
 
 - Design spec: `docs/superpowers/specs/2026-06-21-session-cleaner-design.md`
+- English README: `README.md`
+- Korean README: `README.ko-kr.md`
 
 ## Implemented capabilities
 
@@ -25,6 +27,7 @@
 - Mutation run logs under `${XDG_STATE_HOME:-~/.local/state}/session-cleaner/runs/`.
 - Optional TOML config loading via `--config`.
 - CLI usability improvements: version flag, command descriptions, quick-start/safety help text, `-r/-c/-y` aliases.
+- English and Korean README files with install, quick start, command overview, safety model, config, and development commands.
 - Recursive scanning for configured roots, including nested Claude Code sessions under `~/.claude/projects/**/` and Codex archived sessions under `~/.codex/archived_sessions`.
 - High-confidence Codex bootstrap-only and turn-aborted classifiers.
 - Conservative Claude interrupted-only and exit-only cleanup classifiers.

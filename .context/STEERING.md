@@ -72,3 +72,7 @@ Upstream `can1357/oh-my-pi` exposes `getSessionsDir()` as `~/.omp/agent/sessions
 ### 2026-06-21 — Keep CLI UX boring and explicit
 
 Use standard confirmation wording and aliases: `--yes`/`-y` for non-interactive approval, `--root`/`-r`, and `--config`/`-c`. Help text should foreground safe workflow: scan, explain, then Trash.
+
+### 2026-06-21 — README structure follows bb-cli style
+
+README docs should use the `azyu/bb-cli` shape where it fits: language switcher, feature list, install, quick start, command overview, configuration, safety notes, and development commands. Do not claim Homebrew/releases until they exist.
