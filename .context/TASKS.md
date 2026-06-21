@@ -12,6 +12,7 @@
 | Release install | Done | `cargo build --release`; copied to `~/.local/bin/session-cleaner`; installed binary ran `--help` and dry-run scan |
 | Polish CLI usability | Done | `tests/cli_ux.rs` covers root help, `--version`, subcommand examples, and `-r/-y` aliases |
 | Add README docs | Done | `README.md` and `README.ko-kr.md`; README command examples verified against installed CLI and temp config |
+| Publish v0.1.0 release | Done | GitHub release `v0.1.0` published with `session-cleaner-v0.1.0-darwin-arm64.tar.gz` and SHA256 asset |
 
 ## Completed work
 
@@ -36,6 +37,7 @@
 | 2026-06-21 | Built and installed release binary | `cargo test` passed 20 tests; `cargo build --release`; installed binary at `~/.local/bin/session-cleaner` ran `--help` and `scan --dry-run --older-than 0s` |
 | 2026-06-21 | Polished CLI usability | Added root quick-start/safety help, subcommand examples, `--version`, and short aliases; `cargo test` passed 24 tests |
 | 2026-06-21 | Added English and Korean README docs | Followed `azyu/bb-cli` README structure; verified documented CLI commands, config example, placeholder scan, `cargo test`, `cargo fmt --check`, and `cargo clippy -- -D warnings` |
+| 2026-06-21 | Published GitHub release v0.1.0 | Cargo version was already `0.1.0`; built macOS arm64 release archive; pushed tag `v0.1.0`; uploaded archive and `.sha256` to GitHub Releases |
 
 ## Next observable work
 

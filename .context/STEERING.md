@@ -76,3 +76,7 @@ Use standard confirmation wording and aliases: `--yes`/`-y` for non-interactive 
 ### 2026-06-21 — README structure follows bb-cli style
 
 README docs should use the `azyu/bb-cli` shape where it fits: language switcher, feature list, install, quick start, command overview, configuration, safety notes, and development commands. Do not claim Homebrew/releases until they exist.
+
+### 2026-06-21 — First GitHub release is macOS arm64 only
+
+Release `v0.1.0` publishes only the native macOS arm64 archive plus SHA256 checksum. Do not imply Linux, Windows, Homebrew, or multi-arch support until those artifacts exist.

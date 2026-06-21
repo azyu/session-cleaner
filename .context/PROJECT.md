@@ -9,7 +9,7 @@
 - Repository has been initialized with `git init`.
 - Rust CLI scaffold exists with scan/explain/trash dry-run-first functionality.
 - Release binary installed at `~/.local/bin/session-cleaner`.
-- Latest verification: `cargo test`, `cargo build --release`, installed `session-cleaner --help`, and installed dry-run scan all pass.
+- Latest verification: `cargo build --release`, `target/release/session-cleaner --version`, archive SHA256, GitHub release asset upload, `cargo test`, `cargo fmt --check`, and `cargo clippy -- -D warnings` pass.
 
 ## Durable references
 
@@ -33,6 +33,7 @@
 - Conservative Claude interrupted-only and exit-only cleanup classifiers.
 - OMP report-only keep behavior.
 - Release install path: `~/.local/bin/session-cleaner`.
+- GitHub release `v0.1.0` published with macOS arm64 archive and SHA256 asset.
 
 ## Not yet implemented
 
